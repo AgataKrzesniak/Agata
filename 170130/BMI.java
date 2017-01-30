@@ -1,10 +1,8 @@
 public class BMI{
     public static void main(String[] args){
-        if (args.length==0 && args.length >2  )
+
+        if(args.length==2) 
         {
-            System.out.println("błąd danych");
-        }
-        else { 
             double wzrost= Double.parseDouble ( args[0]);
          double waga=Double.parseDouble (args[1]);
          double bmi;
@@ -18,6 +16,8 @@ public class BMI{
           
           
         }
+        else 
+        System.out.println("BŁĄD DANYCH");
     }
 }
          
