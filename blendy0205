@@ -1,0 +1,11 @@
+Gra.java :
+pozwala na wpisanie większej liczby parametrów niż 1, np Gra 1 0 1, nie wyświetla błędu :)
+
+funkcje.java
+drobny błąd i*i nie może być <= a,bo zawsze znajdzie dzielnik. Każda liczba dzieli się przez samą siebie, 
+
+funkcje2.java
+błąd jak wyżej
+
+funkcje3.java
+jak wyżej :)
