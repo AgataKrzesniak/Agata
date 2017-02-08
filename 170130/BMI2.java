@@ -12,11 +12,11 @@ public class BMI2{
          double bmi;
           bmi= waga/(wzrost*wzrost);
           if ( bmi<18.5)
-              System.out.println("Niedowaga :( .Twoje Bmi to "+bmi);
+              System.out.format("Niedowaga :( .Twoje Bmi to "+"%.2f%n" ,bmi);
               else if ( bmi >18.5 && bmi<24.99)
-              System.out.println("waga prawidłowa :) .Twoje Bmi to "+bmi);
+              System.out.format("waga prawidłowa :) .Twoje Bmi to "+"%.2f%n" ,bmi);
               else 
-              System.out.println("nadwaga : ( .Twoje Bmi to "+bmi);
+              System.out.format("nadwaga : ( .Twoje Bmi to "+"%.2f%n" ,bmi);
           
         
                 do{ System.out.println("Chcesz kontynuować ? 1-Tak 2-NIE");

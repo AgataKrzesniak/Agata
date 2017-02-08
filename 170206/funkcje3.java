@@ -7,11 +7,11 @@ public class funkcje3{
         for(int i=0; i<10 ; i++)
         { t[i]=rand.nextInt(101)+0;}
         return t;
-    } // wiem że program źle działa ale już tylę się z nim męczyłam i na nic nie mogę wpaść 
+    } 
       void pierwsza(int[] t ) {
           boolean pierwsza=true;
 for(int i=0; i<t.length; i++){
-    for (int j=2; j*j<=t.length; j++)
+    for (int j=2; j*j<t.length; j++)
     if(t[i]%j==0)
     pierwsza=false;
     else

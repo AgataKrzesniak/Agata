@@ -2,7 +2,8 @@
 import java.util.Scanner;
 public class Heron{
     public static void main(String[] args){
-        Scanner in=new Scanner(System.in);
+        public class Iloczyn{
+   
         double heron;
         System.out.println("Podaj pierwszy bok trójkąta");
         double a=in.nextDouble();
