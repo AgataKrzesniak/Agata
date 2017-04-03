@@ -1,0 +1,1 @@
+liczb parzystych jest 486
