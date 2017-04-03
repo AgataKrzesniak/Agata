@@ -1,0 +1,1 @@
+liczba z największa suma cyfr to ; 187869866
